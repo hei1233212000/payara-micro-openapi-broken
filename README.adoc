@@ -1,0 +1,7 @@
+=== This is a demo project to show the issue of https://github.com/payara/Payara/issues/4955#issuecomment-713890149
+
+==== Run
+`./gradlew microStart`
+
+==== Check the OpenAPI document
+got to http://localhost:8080/openapi?format=json
