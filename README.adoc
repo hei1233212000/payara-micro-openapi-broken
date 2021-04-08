@@ -5,3 +5,5 @@
 
 ==== Check the OpenAPI document
 got to http://localhost:8080/openapi?format=json
+
+= It is fixed in 5.2021.1

@@ -21,9 +21,12 @@ repositories {
     maven {
         url = uri("https://raw.github.com/payara/Payara_PatchedProjects/master")
     }
+    maven {
+        url = uri("https://nexus.payara.fish/repository/payara-artifacts")
+    }
 }
 
-val payaraMicroVersion = "5.2020.6"
+val payaraMicroVersion = "5.2021.1"
 dependencyManagement {
     imports {
         mavenBom("fish.payara.api:payara-bom:$payaraMicroVersion")
